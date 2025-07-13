@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden{
+display: none;
+}
+#btnStart{
+    background-color: antiquewhite;
+    transition: background 0.3s;
+    width: 120px;
+    border-radius: 8px;
+    
+}
+
+#btnStart.clicked{
+ background: linear-gradient(90deg, #ff8c00, #ffd700);
+    border-radius: 50px;
+    width: 200px;
+}
