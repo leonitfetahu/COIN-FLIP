@@ -11,5 +11,4 @@ A simple coin flip game built with HTML, CSS, and JavaScript.
 ## Open Project
 
 Click the link below to open the game in your browser:
-
-[file:///C:/path/to/your/COIN-FLIP/index.html](file:///C:/path/to/your/COIN-FLIP/index.html)
+(file:///C:/path/to/your/COIN-FLIP/index.html)
