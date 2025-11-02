@@ -8,7 +8,8 @@ A simple coin flip game built with HTML, CSS, and JavaScript.
 2. Click the button to flip the coin.
 3. See the result: Heads or Tails.
 
-## GitHub Repository
+## Open Project
 
-Check out the project on GitHub:  
-[Open Coin Flip on GitHub](https://github.com/leonitfetahu/COIN-FLIP)
+Click the link below to open the game in your browser:
+
+[file:///C:/path/to/your/COIN-FLIP/index.html](file:///C:/path/to/your/COIN-FLIP/index.html)
