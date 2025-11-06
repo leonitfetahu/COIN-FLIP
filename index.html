@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coin Flip Game</title>
+  <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-    <div id="firstpage">
-    <h1>Welcome to Coin flip game </h1>
+
+  <!-- First screen -->
+  <div id="firstpage">
+    <h1>Welcome to Coin Flip Game</h1>
     <h3>Ready to play?</h3>
-    <h3>Please press start when You re ready</h3>
-    <button id="btnStart">Start</button>    
-    
-</div>
-    <div class="secondpage">
-        <h1 id="secondpageH1">Please pick one side </h1>
-        <button id="btnHeads">HEADS</button>
-        <button id="btnTails">TAILS</button>
+    <h3>Please press start when you're ready</h3>
+    <button id="btnStart">Start</button>
+  </div>
 
-    </div>
-    <img id="heads" src="heads.png">
-<script src="index.js"></script>
+  <!-- Second screen -->
+  <div class="secondpage">
+    <h1 id="secondpageH1">Please pick one side</h1>
+    <button id="btnHeads">HEADS</button>
+    <button id="btnTails">TAILS</button>
+    <button id="btnReload">🔄️</button>
+  </div>
 
+  <!-- Coin image (hidden initially) -->
+  <img id="coin" src="heads.png" class="hidden" />
+
+  <script src="index.js"></script>
 </body>
 </html>
